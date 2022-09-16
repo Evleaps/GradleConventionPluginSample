@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
+  <component name="GradleSettings">
+    <option name="linkedExternalProjectsSettings">
+      <GradleProjectSettings>
+        <compositeConfiguration>
+          <compositeBuild compositeDefinitionSource="SCRIPT">
+            <builds>
+              <build path="$PROJECT_DIR$/build-settings" name="build-settings">
+                <projects>
+                  <project path="$PROJECT_DIR$/build-settings" />
+                  <project path="$PROJECT_DIR$/build-settings/dependencies" />
+                </projects>
+              </build>
+              <build path="$PROJECT_DIR$/build-conventions" name="build-conventions">
+                <projects>
+                  <project path="$PROJECT_DIR$/build-conventions" />
+                  <project path="$PROJECT_DIR$/build-conventions/android" />
+                  <project path="$PROJECT_DIR$/build-conventions/environment" />
+                  <project path="$PROJECT_DIR$/build-conventions/kotlin" />
+                  <project path="$PROJECT_DIR$/build-conventions/testing" />
+                  <project path="$PROJECT_DIR$/build-conventions/util" />
+                </projects>
+              </build>
+            </builds>
+          </compositeBuild>
+        </compositeConfiguration>
+        <option name="testRunner" value="GRADLE" />
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/build-conventions" />
+            <option value="$PROJECT_DIR$/build-conventions/android" />
+            <option value="$PROJECT_DIR$/build-conventions/environment" />
+            <option value="$PROJECT_DIR$/build-conventions/kotlin" />
+            <option value="$PROJECT_DIR$/build-conventions/testing" />
+            <option value="$PROJECT_DIR$/build-conventions/util" />
+            <option value="$PROJECT_DIR$/build-settings" />
+            <option value="$PROJECT_DIR$/build-settings/dependencies" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+    </option>
+  </component>
+</project>
